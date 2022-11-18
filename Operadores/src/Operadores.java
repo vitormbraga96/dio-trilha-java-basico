@@ -7,16 +7,33 @@ public class Operadores {
 
         //System.out.println(variavel);
 
-        // EXEMPLO DE TERNÁRIO 
+       // ************************************** OPERADORES TERNÁRIOS ********************************************
 
         int a, b; 
         a = 5;
         b = 6;
 
-        // O SINAL "?" REPRESENTA IF E O SINAL ":" REPRESENTA O ELSE 
-        String resultado = a==b ?"VERDADEIRO" : "FALSO";
+        String resultado = a==b ?"VERDADEIRO" : "FALSO";  // O SINAL "?" REPRESENTA IF E O SINAL ":" REPRESENTA O ELSE 
  
         System.out.println(resultado);
+
+
+
+
+        // ************************************** OPERADORES RELACIONAIS ********************************************
+            int numeroUm = 2;
+            int numeroDois = 4;
+
+            boolean simNao = numeroUm != numeroDois;
+
+            System.out.println("O número Um é diferente do número Dois? " + simNao);
+
+
+
+
+
+
+
 
     }
 }
